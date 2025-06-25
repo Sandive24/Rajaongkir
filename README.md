@@ -88,6 +88,27 @@ Berisi bagian eksperimen awal aplikasi, lokasi: `API\Project\Rajaongkir\Prototyp
 
 ---
 
+---
+
+## 🌐 Endpoint API RajaOngkir
+
+Aplikasi ini menggunakan endpoint dari [RajaOngkir API](https://rajaongkir.com/dokumentasi).  
+Berikut beberapa endpoint utama yang digunakan:
+
+| Endpoint                | Keterangan                        |
+|-------------------------|-----------------------------------|
+| `/city`                 | Mendapatkan daftar kota           |
+| `/cost`                 | Menghitung ongkos kirim           |
+| `/province`             | Mendapatkan daftar provinsi       |
+| `/subdistrict`*         | Mendapatkan daftar kecamatan (pro)|
+| `/waybill`*             | Melacak resi pengiriman (pro)     |
+
+> *Endpoint bertanda bintang hanya tersedia pada paket PRO.
+
+Semua request API menggunakan metode **POST** atau **GET** sesuai dokumentasi RajaOngkir, dan membutuhkan API Key yang valid.
+
+---
+
 ## 🛠 Dependencies
 
 Install library yang dibutuhkan:
