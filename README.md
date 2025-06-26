@@ -132,4 +132,4 @@ screeninfo==0.8.1
 
 ---
 
-*Dibuat oleh: **Ahmad Nur Ikhsan***
+*Dibuat dengan ❤️ oleh Ahmad Nur Ikhsan*
